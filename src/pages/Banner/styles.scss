@@ -1,0 +1,19 @@
+$SecondaryOrPlatinum: #e2e1e1;
+$PrimaryOrOxfordBlue: #0A2240;
+$bMidNeutralsOrShadowBlue: #748cad;
+.bannerWrapper {
+    .stylePrimary {
+        background-color: #fcb040;
+        border-radius: 6px;
+        color: #fff;
+        height: auto;
+        font-weight: bold;
+        margin-bottom:10px;
+        
+        &:focus, &:hover {
+            color: $PrimaryOrOxfordBlue;
+            background: #ffd9d9;
+            border-color: #ffd9d9;
+        }
+    }
+}

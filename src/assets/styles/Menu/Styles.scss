@@ -1,0 +1,104 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+.p-2 {
+  padding: 20px 20px 18px 20px;
+  border-bottom: 1px solid #e8eefd;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.site-layout .site-main-background {
+  background: #f5f5f5;
+}
+.side-left {
+  display: flex;
+  justify-content: center;
+}
+// .ant-menu {
+//   padding-top: 20px;
+// }
+.custom-sider {
+  flex: unset !important;
+  max-width: unset !important;
+  min-width: unset !important;
+  width: unset !important;
+  .ant-menu-vertical .ant-menu-item::after,
+  .ant-menu-vertical-left .ant-menu-item::after,
+  .ant-menu-vertical-right .ant-menu-item::after,
+  .ant-menu-inline .ant-menu-item::after {
+    border-right: 3px solid red;
+  }
+  .ant-menu-inline.ant-menu-root .ant-menu-item,
+  .ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+    font-weight: 500;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: rgba(255, 217, 217, 0.3);
+    font-weight: 500;
+    color: #0a2240;
+  }
+  .ant-menu-item span {
+    color: #0a2240;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ant-menu-item span:hover {
+    color: #1890ff;
+  }
+  .ant-menu-submenu a {
+    color: #0a2240;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ant-menu-submenu div {
+    color: #0a2240;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ant-menu-item-selected a,
+  .ant-menu-item-selected a:hover {
+    color: #0a2240;
+    font-weight: 500;
+  }
+  .ant-menu-light .ant-menu-item:hover,
+  .ant-menu-light .ant-menu-item-active,
+  .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+  .ant-menu-light .ant-menu-submenu-active,
+  .ant-menu-light .ant-menu-submenu-title:hover {
+    color: #1890ff;
+  }
+  .ant-menu-item-selected > span > svg {
+    color: red;
+  }
+  .ant-menu-title-content {
+    color: black;
+  }
+  .ant-menu-item .ant-menu-item-icon,
+  .ant-menu-submenu-title .ant-menu-item-icon,
+  .ant-menu-item .anticon,
+  .ant-menu-submenu-title .anticon {
+    color: #bdcce0;
+    font-size: 16px;
+  }
+}

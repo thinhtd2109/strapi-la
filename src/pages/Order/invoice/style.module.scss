@@ -1,0 +1,205 @@
+.wrapperContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  color: #000;
+  font-weight: 500;
+  background-color: #ffffff;
+  margin: 0;
+  width: 302px;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  @media print {
+    margin: 0 0 15px;
+    padding: 0 5px;
+    height: auto;
+    page-break-inside : avoid;
+  }
+};
+
+
+.logo {
+  width: 112px;
+  margin: 0 auto;
+
+  & svg {
+    margin-bottom: 16px;
+  }
+};
+
+.fontMedium {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px;
+  text-align: center;
+};
+
+.title {
+  @extend .fontMedium;
+  font-weight: bold;
+  text-transform: uppercase;
+};
+
+.titleMedium {
+  @extend .title;
+  font-size: 16px;
+};
+
+.address {
+  @extend .fontMedium;
+  padding: 0 24px;
+};
+
+.contact {
+  @extend .fontMedium;
+  font-size: 15px;
+  margin-bottom: 6px;
+};
+
+.customer {
+  padding: 13px 0;
+  width: 100%;
+  > .contact {
+    @extend .contact;
+    font-size: 14px;
+    text-align: left;
+  }
+};
+
+.lineBreakDashed {
+  height: 1px;
+  border-bottom: 1px dashed #000;
+  width: 100%;
+  position: relative;
+  margin: 16px 0;
+};
+
+.itemHeader {
+  width: 100%;
+  display: grid;
+  grid-template: auto / 40% 10% 20% 30%;
+  justify-content: flex-start;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 8px 0;
+  margin-bottom: 12px;
+
+  > div:last-child {
+    text-align: right;
+  }
+};
+
+.total {
+  align-self: flex-end;
+  margin-bottom: 32px;
+  font-weight: bold;
+};
+
+.totalItem {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+
+  > p {
+    margin: 0;
+  }
+
+  &:not(:last-child) > p {
+    margin-bottom: 1em;
+  }
+
+  &.normal {
+    font-weight: 500;
+  }
+
+  > span {
+    padding-left: 10px;
+    width: 110px;
+    text-align: right;
+  }
+};
+
+.footer {
+  text-align: center;
+  margin-bottom: 32px;
+  > .bold {
+    font-weight: bold;
+  }
+  > .note {
+    font-size: 11px;
+    font-style: italic;
+  }
+  > p:not(:last-child) {
+    margin-bottom: 1em;
+  }
+  > p:last-child {
+    margin: 0;
+  }
+};
+
+//invoice item order
+.invoiceItem {
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  
+  .itemName {
+    margin-bottom: 8px;
+    font-weight: bold;
+    span {
+      font-weight: 500;
+    }
+  };
+
+  .showPrice {
+    text-decoration: line-through;
+  }
+
+  .itemInfo {
+    display: grid;
+    grid-template: auto / 40% 10% 20% 30%;
+    margin-bottom: 4px;
+    position: relative;
+    width: 100%;
+
+    > div:last-child {
+      text-align: right;
+    }
+  };
+
+  .breakDashed {
+    height: 1px;
+    border-bottom: 1px dashed #000;
+    width: 100%;
+    position: relative;
+    margin-bottom: 12px;
+  };
+};
+
+.printBtn {
+  padding: 8px 31.5px !important;
+  width: 138px;
+  height: 38px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: white;
+  background: #77ba6a;
+  border-radius: 6px;
+  
+  @media print {
+    display: none;
+  }
+};

@@ -1,0 +1,53 @@
+.root {
+    text-align: end;
+    padding-right: 50px;
+    cursor: pointer;
+    .downIcon {
+        color: #8080808f;
+        margin-left: 3px;
+    }
+    .avatar {
+        background-color: #fcb040;
+    }
+}
+
+.ant-popover {
+    left: unset !important;
+    right: 17px;
+}
+
+.ant-popover-title {
+    text-align: center;
+}
+.ant-popover-inner-content {
+    padding: 0px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    .avatar {
+        margin-right: 15px;
+        background-color: #fcb040;
+    }
+}
+
+.footer {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 12px;
+    margin-top: 6px;
+    text-align: center;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.wapperLoading {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 138px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popOverCustom {
+    width: auto;
+}

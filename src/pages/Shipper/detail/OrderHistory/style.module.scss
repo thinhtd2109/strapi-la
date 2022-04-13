@@ -1,0 +1,67 @@
+.statisticalPage {
+    .title {
+        color: #0A2240;
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .tag {
+        border-radius: 6px; 
+        margin-left: 6px; 
+        margin-right: 0; 
+        margin-bottom: 6px;
+    }
+
+    .booth_incharse {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        margin-bottom: 1em;
+      }
+
+    .rowContainer {
+        margin-top: 48px;
+    }
+    .leftText {
+        font-size: 16px;
+        font-weight: 500;
+        color: #748CAD;
+        
+    }
+    .rightText {
+        font-size: 16px;
+        font-weight: 400;
+        color: #0A2240;
+    }
+    .print {
+        background-color: #77ba6a  !important;
+        color: #fff;
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        padding: 10px 40px;
+        white-space: nowrap;
+        height: 38px;
+        cursor: pointer;
+        // margin-top: 10px;
+        &:hover {
+          background-color: #5b9e4e;
+        }
+        &:active {
+          transform: translate(-5px,-5px);
+        }
+      }
+}
+.outOfArea {
+    margin: 32px 0px;
+    .titleOutOfArea {
+        font-size: 16px;
+        font-weight: 400;
+        color: #748CAD;
+    }
+}
+    

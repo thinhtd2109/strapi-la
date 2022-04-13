@@ -1,0 +1,13 @@
+.uploadImageContainer {
+    .ant-upload.ant-upload-select-picture-card {
+        width: 100%;
+    }
+    .dpFlex {
+        display: flex;
+    }
+    .closeIcon {
+        font-size: 24px;
+        color: #DA6744;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,18 @@
+.ant-table-thead > tr >th{
+    color: #748CAD;
+    background: #FFFFFF;
+    border:none;
+    margin: 0 8px;
+    font: normal normal normal 20px/32px Montserrat, serif;
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.25), 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+    &:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+        display: none;
+    }
+  }
+  .ant-table-cell{
+    font: normal normal 400 16px/20px Montserrat, serif;
+    color: #0A2240;
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.25), 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    vertical-align: middle;
+  }

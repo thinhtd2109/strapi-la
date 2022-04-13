@@ -1,0 +1,67 @@
+.boothDetailContainer {
+    width: 100%;
+    margin-top: 32px;
+    .wrapper {
+        width: 100%;
+    }
+    .required {
+        color: red;
+    }
+    .textRight {
+        display: flex;
+        align-items: center;
+    }
+    .input {
+        height: 48px;
+        padding: 12px 16px;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 6px !important;
+    
+        &-label {
+          font-size: 16px;
+          line-height: 26px;
+        }
+    }
+    .rowContainer {
+        margin-top: 24px;
+    }
+    .notFoundAddressSupport {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bordered {
+        border: 1px solid #e2e1e1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .supportAddress {
+        width: 100%;
+        border-radius: 6px;
+    }
+      
+            
+    .tagPhone { 
+        width: 100%;
+        border: 1px solid #E2E1E1;
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        padding: 6px 6px;
+        
+        .tagPhoneItem {
+            padding-top: 6px;
+            border-radius: 6px !important;
+        }
+        .inputPhone {
+            outline: none;
+            border: none;
+            height: 100%;
+            margin-left: 16px;
+        }
+    }
+}

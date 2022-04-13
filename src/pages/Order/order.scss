@@ -1,0 +1,89 @@
+@import "/src/assets//styles/Override/button";
+@import "/src/assets//styles/Override/tab";
+@import "/src/assets//styles/Override/table";
+@import "/src/assets//styles/Override/tag";
+
+$PrimaryOxfordBlue: #0A2240;
+$SecondaryBurGreen: #77BA6A;
+$SecondaryTiger: #E07E37;
+
+$LightNeutrals: #b9b9b9;
+
+.order-page {
+  .header {
+    padding: 0 8px 8px;
+    margin: 0;
+    border-bottom: 2px solid #EF4036;
+    width: 150px;
+  }
+  .wrapper-table {
+      overflow-x: auto; 
+      width: calc(100% + 64px);
+      margin-left: -32px;
+      margin-right: -32px;
+    > div {
+      min-width: 1920px;
+      width: 100%;
+    }
+    tr > th:first-child, tr > td:first-child {
+      padding-left: 32px;
+    }
+    tr > th:last-child, tr > td:last-child {
+      padding-right: 32px;
+    }
+    tr > td > .item-center {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+  }
+  .btn_bg_secondary {
+    background-color: $SecondaryBurGreen;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 10px 40px;
+    white-space: nowrap; 
+    height: 38px;
+    &.style-button {
+      background: $PrimaryOxfordBlue;
+    }
+    &.change-status {
+      background: $SecondaryTiger;
+    }
+    &.disable {
+      background: $LightNeutrals;
+      pointer-events: none;
+      user-select: none;
+    }
+    &:hover {
+      opacity: .6;
+    }
+  }
+  
+  /*custom check box*/
+  /*
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+  .ant-checkbox:hover .ant-checkbox-inner,
+  .ant-checkbox-input:focus + .ant-checkbox-inner 
+  {
+    border-color: unset;
+  }
+  .ant-checkbox-checked::after {
+    border-color: unset;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #fff;
+    border-color: $PrimaryOxfordBlue;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner::after {
+    border-color: $PrimaryOxfordBlue;
+    transform: rotate(45deg) scale(1.8) translate(-30%, -50%);
+    width: 5px;
+  }
+  */
+  
+}

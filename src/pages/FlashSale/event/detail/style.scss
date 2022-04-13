@@ -1,0 +1,94 @@
+$PrimaryOrOxfordBlue: #0A2240;
+.createFlash {
+    background: #fff;
+    border-radius: 12px;
+    .addBtn {
+        background-color: #fcb040;
+        border-radius: 6px;
+        color: #fff;
+        height: auto;
+        font-weight: bold;
+        padding: 8px 35px;
+        
+        &:focus, &:hover {
+            color: $PrimaryOrOxfordBlue;
+            background: #ffd9d9;
+            border-color: #ffd9d9;
+        }
+    }
+    .headerWrapper {
+        padding: 32px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .imgWrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .contentWrapper{
+        padding: 32px;
+    }
+}
+.removeIcon {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+    color: #EF4036;
+    cursor: pointer;
+}
+.productImage {
+    max-height: 120px;
+    border-radius: 6px;
+    height: auto;
+    width: 196px;
+    object-fit: fill;
+  }
+
+.titleWrapper {
+    // padding-top: 30px;
+    .titleProduct {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .subTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+.ckBox {
+    padding: 40px 0px 0px 35px;
+}
+
+.custom-button {
+    .btn_reset__product_create {
+      background-color: #fff;
+      border-radius: 6px;
+      width: 200px;
+      color: black;
+      border: none;
+      font-weight: bold;
+      &:hover {
+        background-color: rgb(199, 199, 199);
+      }
+    }
+    .btn__btn-create__product {
+      background-color: #EF4036;
+      border-radius: 6px;
+      width: 200px;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        background-color: #bd3129;
+      }
+    }    
+  }
+  .wapperLoading {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 138px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

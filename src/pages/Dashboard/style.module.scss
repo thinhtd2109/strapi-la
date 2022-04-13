@@ -1,0 +1,139 @@
+$PrimaryColor: #0A2240;
+$MidColor: #BDCCE0;
+$bMidNeutralsOrShadowBlue: #748cad;
+
+.wapperLoading {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 138px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleTitleSection {
+    color: $PrimaryColor;
+    margin: 0;
+    border-bottom: 2px solid #f00;
+
+    font-size: 28px;
+    padding: 0;
+    border-bottom: 0;
+};
+
+.styleDivider {
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    border-color: #f5f5f5;
+};
+
+.styleInRow {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    font-size: 16px;
+
+    > div:not(:last-child) {
+        padding-right: 16px;
+    }
+};
+
+.dropdownFilter {
+    width: 346px;
+    background: unset;
+    
+    > .subFilter {
+        position:absolute;
+        z-index: 10;
+        width: 346px;
+        
+        > div:first-child {
+            color: $PrimaryColor;
+            font-weight: 600;
+            margin: 0 0 6px;
+            background:#fff;
+            box-shadow: 0 3px 3px rgb(0 0 0 / 10%), 0 3px 14px rgb(0 0 0 / 10%), 0 5px 5px rgb(0 0 0 / 10%);
+            border-radius: 6px;
+        }
+        > ul {
+            background: #fff;
+            box-shadow: 0 3px 3px rgb(0 0 0 / 10%), 0 3px 14px rgb(0 0 0 / 10%), 0 5px 5px rgb(0 0 0 / 10%);
+            border-radius: 6px;
+
+            > li.itemFilter {
+                padding: 0 12px 0 24px !important;
+                margin: 0;
+                color: $PrimaryColor;
+                font-weight: 600;
+                width: 100%;
+
+                .pickerItem {
+                    border-radius: 6px;
+                    
+                    input {
+                        max-width: 208px;
+                    };
+                }
+            }
+        }
+    }
+}
+
+.styleOverview {
+    display: flex;
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    align-items: center;
+
+    > div {
+        padding: 0 !important;
+    };
+    > div:first-child {
+        margin-right: 10px;
+    };
+    .styleIcon {
+        font-size: 32px;
+        padding: 12px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;        
+    };
+
+    .currencyItem {
+        color: #f00;
+        background: rgb(255 0 0 / 20%);
+    };
+
+    .shoppingItem {
+        color: #fcb048;
+        background: rgb(252 176 72 / 20%);
+    };
+
+    .handbagItem {
+        color: #77ba6a;
+        background: rgb(119 186 106 / 20%);
+    };
+    
+    .overviewTitle {
+        color: $MidColor;
+        font-size: 16px;
+        line-height: 1;
+        font-weight: bold;
+    };
+    h5 {
+        color: $PrimaryColor;
+        font-size: 18px;
+        line-height: 1;
+        padding-top: 6px;
+        margin: 0 !important;
+    };
+};
+
+.styleLastOder {
+    .styleWrapperTable {
+        overflow-x: auto;
+        width: calc(100% + 64px);
+        margin-left: -32px;
+        margin-right: -32px;
+    }
+}

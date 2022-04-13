@@ -1,0 +1,64 @@
+.wrapperTable {
+  overflow-x: auto;
+  width: calc(100% + 64px);
+  margin-left: -32px;
+  margin-right: -32px;
+  > div {
+    width: 100%;
+  }
+  tr > th:first-child,
+  tr > td:first-child {
+    padding-left: 32px;
+  }
+  tr > th:last-child,
+  tr > td:last-child {
+    padding-right: 32px;
+  }
+}
+.wapperLoading {
+  width: calc(100vw - 240px);
+  height: calc(100vh - 138px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
+.print {
+  background-color: #77ba6a  !important;
+  color: #fff;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 10px 40px;
+  white-space: nowrap;
+  height: 38px;
+  cursor: pointer;
+  // margin-top: 10px;
+  &:hover {
+    background-color: #5b9e4e;
+  }
+  &:active {
+    transform: translate(-5px,-5px);
+  }
+}
+.datePicker {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 38px;
+  margin-top: 10px;
+  justify-content: center;
+  padding: 10px 140px;
+}
+.filterDropdown {}
+
+.booth_incharse {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}

@@ -1,0 +1,16 @@
+.wrapperTable {
+    overflow-x: auto; 
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    margin-right: -32px;
+    margin-top: 64px;
+    > div {
+        width: 100%;
+    }
+    tr > th:first-child, tr > td:first-child {
+        padding-left: 32px;
+    }
+    tr > th:last-child, tr > td:last-child {
+        padding-right: 32px;
+    }
+}

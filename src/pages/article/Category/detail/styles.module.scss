@@ -1,0 +1,22 @@
+.editBtn {
+  background-color: #FCB040;
+  color: #fff;
+  width: max-content;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.buttonCancel {
+  background-color: #e2e1e1;
+  color: black;
+}
+
+.button {
+  width: 260px;
+  height: 50px;
+  border-radius: 6px;
+  font-weight: bold;
+  &:hover {
+    border: none;
+  }
+}

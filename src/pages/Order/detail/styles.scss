@@ -1,0 +1,203 @@
+.order-detail-wrapper {
+  .order_detail_title {
+    display: flex;
+    align-items: center;
+    > h3 {
+      margin: 0;
+    }
+  }
+  .title__address,
+  .title__phone {
+    color: #748CAD;
+    font: normal normal normal 16px/26px Montserrat, serif;
+  }
+  .text__address,
+  .text__phone {
+    font: normal normal normal 16px/26px Montserrat, serif;
+  }
+  .custom_button {
+    border: none;
+    padding: 6px;
+  }
+  .tag_status {
+    padding: 6px 20px;
+    border-radius: 20px;
+    border-color: none;
+
+    &:not(.lastest) {
+      cursor: pointer;
+    }
+
+    &.view_only {
+      cursor:unset;
+    }
+  }
+  .avatar {
+    background-color: #fcb040;
+    font-size: 16px;
+    padding-top: 7px;
+    width: 48px;
+    height: 48px;
+  }
+  .btn_history {
+    background-color: #fcb040;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 10px 20px;
+  }
+  .btn_detail {
+    width: 160px;
+  }
+  .confirmBtn {
+    background-color: #fa3414;
+    color: white;
+    border-radius: 6px;
+    width: 260px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .disableBtn {
+    background-color: #e2e1e1;
+    color: white;
+    border-radius: 6px;
+    width: 260px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .background-header {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    flex: 1;
+    margin: 0;
+    height: 100%;
+    font: normal normal normal 22px/30px Montserrat, serif;
+    align-items: flex-start;
+  }
+  .ant-table-thead
+    > tr
+    > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background-color: unset;
+    color: none;
+  }
+  .background-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    .table-thread {
+      padding-bottom: 20px;
+      border-bottom: 1px solid lightgray;
+      &:last-child {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    .body-table {
+      //   border-bottom: 1px solid lightgray;
+      height: 140px;
+    }
+    .footer-table {
+      padding-top: 20px;
+      padding-left: 16px;
+      padding-right: 16px;
+      .head-footer {
+        .ant-typography {
+          padding: 10px;
+          text-align: right;
+        }
+      }
+      .body-footer {
+        .ant-typography {
+          padding: 10px;
+          text-align: right;
+        }
+      }
+    }
+    .lightblue {
+      color: #859bb7;
+    }
+  }
+  .title-table {
+    color: #748cad;
+  }
+  .table-styling {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .ant-image {
+    width: 140px;
+    height: auto;
+  }
+  .product_image {
+    max-height: 140px;
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  .red {
+    color: red;
+  }
+  .order-code {
+    font: normal normal normal 28px/30px Montserrat, serif;
+    color: #0a2240;
+    margin-bottom: 0;
+  }
+
+  .order-info {
+    display: flex;
+    flex-direction: column;
+    &-title {
+      font: normal normal normal 24px/32px Montserrat, serif;
+      margin-bottom: 24px;
+    }
+  }
+  .wapperLoading {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 138px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-table {
+    overflow-x: auto;
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    margin-right: -32px;
+    > div {
+      width: 100%;
+    }
+    tr > th:first-child,
+    tr > td:first-child {
+      padding-left: 32px;
+    }
+    tr > th:last-child,
+    tr > td:last-child {
+      padding-right: 32px;
+    }
+    tr > td {
+      .item-center {
+        display: flex;
+        justify-content: center;
+      }
+      .customer-avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+  .underline {
+    padding-left: 5px;
+  }
+}

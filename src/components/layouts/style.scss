@@ -1,0 +1,9 @@
+.custom-layout {
+    .ant-menu {
+        .ant-menu-item-selected {
+            svg > path {
+                fill: #EF4036;
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.shipperPage {
+  .ant-checkbox-checked .ant-checkbox-inner:after {
+    border-color: #2C7BE5 !important;
+
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: unset;
+    border: 1px solid #2C7BE5;
+  }
+}
+.radio-active {
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #00b517 !important;
+  }
+  .ant-radio-checked::after {
+    border: 1px solid #00b517 !important;
+  }
+  .ant-radio-input:focus + .ant-radio-inner {
+    border-color: #00b517 !important;
+  }
+  .ant-radio-inner::after {
+    border: 1px solid #00b517 !important;
+  }
+  .ant-radio-inner::after {
+    background-color: #00b517 !important;
+  }
+}
+.booth_incharse {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
+.radio-unactive {
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #e2e1e1 !important;
+  }
+  .ant-radio-checked::after {
+    border: 1px solid #e2e1e1 !important;
+  }
+  .ant-radio-input:focus + .ant-radio-inner {
+    border-color: #e2e1e1 !important;
+  }
+  .ant-radio-inner::after {
+    border: 1px solid #e2e1e1 !important;
+  }
+  .ant-radio-inner::after {
+    background-color: #e2e1e1 !important;
+  }
+}
+
+.radio-stopactive {
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #F4C867 !important;
+  }
+  .ant-radio-checked::after {
+    border: 1px solid #F4C867 !important;
+  }
+  .ant-radio-input:focus + .ant-radio-inner {
+    border-color: #F4C867 !important;
+  }
+  .ant-radio-inner::after {
+    border: 1px solid #F4C867 !important;
+  }
+  .ant-radio-inner::after {
+    background-color: #F4C867 !important;
+  }
+}

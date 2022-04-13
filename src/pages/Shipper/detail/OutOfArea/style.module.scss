@@ -1,0 +1,38 @@
+.statisticalPage {
+    .title {
+        color: #0A2240;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .result {
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 32px;
+        .rowContainer {
+            margin-top: 48px;
+        }
+        .leftText {
+            font-size: 16px;
+            font-weight: 400;
+            color: #748CAD;
+        }
+        .rightText {
+            font-size: 16px;
+            font-weight: 400;
+            color: #0A2240;
+        }
+      
+    }   
+    .outOfArea {
+        margin: 12px 0px;
+        .titleOutOfArea {
+            font-size: 16px;
+            font-weight: 400;
+            color: #748CAD;
+        }
+    }
+    
+}

@@ -1,0 +1,154 @@
+.styleCardProduct {
+  max-width: 380px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+
+  img {
+    height: 187px;
+    object-fit: cover;
+  }
+
+  .itemRow {
+    font-size: 16px;
+    > span {
+      position: relative;
+      &:after {
+        line-height: 1;
+        position: absolute;
+        top: 2px;
+        right: -45px;
+        font-size: 12px;
+        color: #fff;
+        padding: 4px 12px;
+        border-radius: 6px;
+      }
+    }
+    &.mode2 {
+      > div:first-child {
+        width: calc(100% - 65px);
+      }
+      > div:last-child {
+      }
+    }
+  }
+
+  .itemRow:not(:last-child) {
+    padding-bottom: 8px;
+  }
+}
+
+.styleRetailPrice {
+  &:after {
+    content: "Lẻ";
+    background-color: #f00;
+  }
+}
+
+.styleSalePrice {
+  &:after {
+    content: "Sỉ";
+    background-color: #faad14;
+  }
+}
+
+.styleStatus {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 1;
+  color: #fff;
+  // &.new {
+  //     background: #0cbebd;
+  // };
+  // &.hot {
+  //     background: #ef4136;
+  // };
+  img {
+    height: 20px;
+    width: 20px;
+    padding-right: 6px;
+    object-fit: contain;
+  }
+}
+.styleStatusNew {
+  background: #0cbebd;
+  border-radius: 4px;
+}
+.styleStatusHot {
+  background: #ef4136;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+}
+
+.stylePagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  font-size: 16px;
+
+  > div:not(:last-child) {
+    padding-right: 16px;
+  }
+}
+
+.styleSelect {
+  width: 70px;
+  > div {
+    border-radius: 6px !important;
+  }
+}
+
+.styleButton {
+  padding: 0 10px;
+  border: 0;
+  box-shadow: unset;
+  &:disabled {
+    background-color: unset;
+    cursor: unset;
+    &:hover {
+      background-color: unset;
+    }
+  }
+  &:focus {
+    color: unset;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+.styleInput {
+  height: 38px;
+}
+
+.styleInputTextField {
+  height: unset;
+  border: unset;
+  padding: unset;
+  font-size: 16px;
+  &:focus {
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+.styleInputSelectField {
+  width: 100%;
+  > div {
+    height: unset !important;
+    border: unset !important;
+    padding: unset !important;
+    > span {
+      font-size: 16px;
+    }
+  }
+}

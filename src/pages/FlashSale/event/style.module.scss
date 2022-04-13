@@ -1,0 +1,102 @@
+$SecondaryOrPlatinum: #e2e1e1;
+$PrimaryOrOxfordBlue: #0A2240;
+$bMidNeutralsOrShadowBlue: #748cad;
+
+.wapperLoading {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 138px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+.flashPage {
+
+    .titleRow {
+        align-items: center;
+        padding-bottom: 32px;
+        h3 {
+            margin: 0;
+        }
+        .stylePrimary {
+            background-color: #fcb040;
+            border-radius: 6px;
+            color: #fff;
+            height: auto;
+            font-weight: bold;
+            padding: 8px 6px;
+            
+            &:focus, &:hover {
+                color: $PrimaryOrOxfordBlue;
+                background: #ffd9d9;
+                border-color: #ffd9d9;
+            }
+        }
+    };
+    .bg {
+        background: #fff;
+        border-radius: 12px;
+        padding: 10px 32px;
+        .wrapperTable {
+            overflow-x: auto; 
+            width: calc(100% + 64px);
+            color: #ef4036;
+            margin-left: -32px;
+            margin-right: -32px;
+            > div {
+                width: 100%;
+            }
+            tr > th:first-child, tr > td:first-child {
+                padding-left: 32px;
+            }
+            tr > th:last-child, tr > td:last-child {
+                padding-right: 32px;
+            }
+    
+        }
+    }
+};
+
+.tag {
+    text-align: center;
+    width: 95%;
+    border-radius: 29px;
+    border: none;
+}   
+
+.waitingStatus {
+    background-color: #D2F7FF;
+    color: #02B4DB;
+}
+.runningStatus {
+    background-color: #FFE7C5 ;
+    color: #FCB040;
+}
+.endStatus {
+    background-color: #D0FFD6;
+    color: #00B517;
+}
+.custom-button {
+    .btn_reset__product_create {
+      background-color: #fff;
+      border-radius: 6px;
+      width: 200px;
+      color: black;
+      border: none;
+      font-weight: bold;
+      &:hover {
+        background-color: rgb(199, 199, 199);
+      }
+    }
+    .btn__btn-create__product {
+      background-color: #EF4036;
+      border-radius: 6px;
+      width: 200px;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        background-color: #bd3129;
+      }
+    }    
+  }

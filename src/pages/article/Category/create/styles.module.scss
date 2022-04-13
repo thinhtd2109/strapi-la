@@ -1,0 +1,166 @@
+.formItem {
+    margin: 0;
+  }
+
+
+  .resultBooths {
+    width: 100%;
+   
+    min-height: 144px;
+    margin-top: 24px;
+    border-radius: 6px;
+  }
+
+  .border {
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .inputLabel {
+    color: #748CAD;
+    margin-left: 12px;
+  }
+
+  .customerName {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #0a2240;
+  }
+
+  .buttonEditMode {
+    background-color: #fcb040;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+  }
+  .input {
+    height: 40px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    
+    background-color: #fff;
+    border-radius: 6px;
+   
+    &:hover {
+      cursor: unset;
+    }
+    &-label {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+
+
+  .ant-input[disabled] {
+    background-color: #fff;
+    color: #000;
+    &:hover {
+      cursor: unset;
+    }
+  }
+  .table-header {
+    padding: 0 0 20px;
+    font-size: 28px;
+    line-height: 30px;
+    color: #0a2240;
+  }
+  .order-item {
+    background: #ffffff;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1), 0px -1px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    padding: 38px 32px;
+  }
+  .item-title {
+    font-size: 13px;
+    line-height: 15px;
+    color: #0a2240;
+  }
+  .item-text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .item-name {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+  }
+
+  .detail-btn {
+    background: linear-gradient(0deg, #fcb040, #fcb040);
+    border-radius: 6px;
+    min-width: 138px;
+    height: 38px;
+    padding: 8px 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+  }
+  .avatar {
+    width: 127px;
+    height: 125px;
+    background-color: #fcb040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border: 6px solid #e2e1e1;
+  }
+  .button {
+    width: 260px;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    &:hover {
+      border: none;
+    }
+  }
+  .buttonConfirm {
+    background-color: #ef4036;
+    color: #fff;
+  }
+  .buttonCancel {
+    background-color: #e2e1e1;
+    color: black;
+  }
+  .uploadImage {
+    border: 1px solid #fcb040;
+    width: 180px;
+    height: 48px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  .uploadText {
+    color: #fcb040;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .ant-row .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  
+
+  .input {
+    height: 40px;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 24px;
+
+   
+
+    &-label {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }

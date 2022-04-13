@@ -1,0 +1,30 @@
+.boxDistrictContainer {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .header {
+      width: 100%;
+      padding: 12px;
+      box-sizing: border-box;
+      border-bottom: 1px solid lightgray;
+    }
+    .body {
+      padding: 12px;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+    }
+    .tags {
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: unset;
+    }
+    .removeIcon {
+      cursor: pointer;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.dashboardShipperPage {
+  .wrapper {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px 32px;
+  }
+  .button {
+    background-color: #FCB040;
+    color: #fff;
+    padding:0px 24px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    &:disabled {
+      background-color: unset;
+      color: lightgray;
+      &:hover {
+        background-color: unset;
+      }
+    }
+  }
+  .booth_incharse {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 300px;
+  }
+  .wrapperTable {
+    overflow-x: auto;
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    margin-right: -32px;
+    > div {
+      width: 100%;
+    }
+    tr > th:first-child,
+    tr > td:first-child {
+      padding-left: 32px;
+    }
+    tr > th:last-child,
+    tr > td:last-child {
+      padding-right: 32px;
+    }
+  }
+  .tagsActive {
+    border: unset;
+    width: 100%;
+
+    text-align: center;
+    justify-content: center;
+  }
+}

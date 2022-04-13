@@ -1,0 +1,86 @@
+.wrapper-product-create {
+  //   padding: 16px 0;
+  //   margin-top: 30px;
+  .border-bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d9d9d9;
+  }
+  .container {
+    padding: 20px;
+    h3.ant-typography,
+    .ant-typography h3 {
+      margin: 0;
+    }
+    .text__title {
+      font-size: 20px;
+      color: #0a2240;
+    }
+  }
+  .btn_add-price {
+    background-color: #fcb040;
+    border-radius: 6px;
+    color: #fff;
+    padding: 16px 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .inputItem {
+    width: calc(100% / 5);
+    padding: 0 8px;
+  }
+  .inputItem:first-child {
+    padding-left: 0;
+  }
+  .inputItem:last-child {
+    padding-right: 0;
+  }
+  .inputItem:nth-child(n + 7) {
+    padding-left: 0;
+  }
+  .inputItemType {
+    width: 80%;
+  }
+
+  .btnAddFieldPrice {
+    background-color: #fcb040;
+    color: #fff;
+    border-radius: 6px;
+    width: 140px;
+  }
+  .btn_add_type {
+    background-color: #77BA6A;
+    color: #fff;
+    border-radius: 6px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.custom-button {
+  .btn_reset__product_create {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 200px;
+    color: black;
+    border: none;
+    font-weight: bold;
+    &:hover {
+      background-color: rgb(199, 199, 199);
+    }
+  }
+  .btn__btn-create__product {
+    background-color: #EF4036;
+    border-radius: 6px;
+    width: 200px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      background-color: #bd3129;
+    }
+  }
+  
+}
